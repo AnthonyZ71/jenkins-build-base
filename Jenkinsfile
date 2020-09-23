@@ -2,7 +2,7 @@ pipeline {
     agent { label 'master' }
 
     environment {
-        IMAGE_NAME = 'jbd-dev-base'
+        IMAGE_NAME = 'jenkins-build-base'
         IMAGE_VERSION = "1.1"
         SCAN_REGISTRY = "sentinel:5001"
         APPROVED_REGISTRY = "sentinel:5000"
